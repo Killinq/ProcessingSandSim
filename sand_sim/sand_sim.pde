@@ -26,7 +26,7 @@ void draw()
 {
   for (int i = 0; i < cols; i++)
   {
-    for (int j = 0; j < rows; j++)
+    for (int j = 0; j < rows-1; j++)
     {
       int x = i * res;
       int y = j * res;
